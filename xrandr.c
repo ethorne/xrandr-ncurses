@@ -40,6 +40,7 @@ int main() {
     keypad(stdscr, TRUE);
     while( ch != '\n'){
         switch(ch){
+            case 'k':
             case KEY_UP:
                 switch(state){
                     case 0:
@@ -56,6 +57,7 @@ int main() {
                         break;
                 }
                 break;
+            case 'j':
             case KEY_DOWN:
                 switch(state){
                     case 0:
@@ -72,6 +74,7 @@ int main() {
                         break;
                 }
                 break;
+            case 'l':
             case KEY_RIGHT:
                 switch(state){
                     case 0:
@@ -88,6 +91,7 @@ int main() {
                         break;
                 }
                 break;
+            case 'h':
             case KEY_LEFT:
                 switch(state){
                     case 10:
