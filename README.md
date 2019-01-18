@@ -3,15 +3,14 @@ Easily manage your screens with i3
 
 <img src="img/screen.png" alt="drawing" width="600"/>
 
-NOTE: I forked this from (here)[https://github.com/ldevillez/xrandr-ncurses?files=1
+NOTE: I forked this from [here](https://github.com/ldevillez/xrandr-ncurses?files=1)
 
 ## dependency
 * ncurses
 
 ## What does it do ?
 * Choose the screens that you want to use
-* Reload polybar
-* Reload nitrogen
+* reloads the background
 
 ## Installation
 * `make build` (optional)
@@ -22,7 +21,7 @@ NOTE: I forked this from (here)[https://github.com/ldevillez/xrandr-ncurses?file
     'exec /home/erik/Repositories/xrandr-ncurses/xrandr-ncurses-app'
 ```
 
-## Customise
-You can add for each state the bash command that you want to Add
+## TODO
+Increase extensibility so that anyone can use this with just a bit of configuration.
 
 Enjoy !
